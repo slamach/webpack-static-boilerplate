@@ -1,39 +1,39 @@
 # Webpack Static Website Boilerplate
 
-## О проекте
+## About the Project
 
-Шаблон для разработки классических статических сайтов с использованием современных технологий.
+Boilerplate for building classic static websites using modern technology.
 
-### Особенности проекта
-- **Современные технологии:** ES6+ (Babel), Sass
-- **Webpack:** Сборка проекта с помощью Webpack
-- **DevServer:** Локальный сервер с HMR
-- **Imagemin:** Сжатие изображений с помощью Imagemin
-- **EditorConfig и Prettier:** Автоматическое форматирование исходных файлов при коммите
+### Features
+- **Modern technology:** ES6+ (Babel), Sass
+- **Webpack:** Project bundling with Webpack
+- **DevServer:** Local server with HMR
+- **Imagemin:** Image minifying with Imagemin
+- **EditorConfig и Prettier:** Code formatting on commit
 
-### Структура проекта
-Вся разработка происходит в директории `src`.
-- `fonts` -- шрифты
-- `img` -- медиафайлы
-- `js` -- JS-скрипты
-- `scss` -- SCSS-стили
-- `static` -- статические файлы, которые не нужно обрабатывать лоадерами
+### Project Structure
+All development takes place in the `src` directory.
+- `fonts`
+- `img`
+- `js`
+- `scss`
+- `static`
 
-Файлы HTML располагаются в корне `src`. Есть возможность использовать LoDash в качестве шаблонизатора (для шаблонов можно создать отдельную директорию).
+HTML files are located in the `src` root. It is possible to use LoDash as a templating tool (you can create a separate directory for templates).
 
-Подробнее про `static`.  
-Все ее содержимое Webpack копирует в корень директории со сборкой. Чтобы использовать статические файлы внутри HTML нужно начинать путь до них с `./`, например, `./favicon.ico`.
+More about `static`.  
+Webpack copies all its content to the root of the build directory. To use static files in HTML, you need to start the path to them with `./`, for example, `./favicon.ico`.
 
-Основные параметры сборки вынесены в объект `config` в файле `webpack.config.js`.
+Build configuration is in the `config` object in the file `webpack.config.js`.
 
-## Сборка и запуск
+## Installation and Usage
 ```
 npm install
 ```
 
-Чтобы заработал pre-commit хук, нужно выполнять `npm install`, когда проект уже инициализирован как Git-репозиторий.
+To make the pre-commit hook work, you need to run `npm install` when the project is already initialized as a Git repository.
 
-Если проект инициализируется как репозиторий позже, нужно дополнительно выполнить `npm run prepare`.
+If the project is initialized as a repository later, you need to additionally execute `npm run prepare`.
 
 ### Development
 ```
@@ -45,7 +45,7 @@ npm start
 npm build
 ```
 
-## Контакты
-Дмитрий Свиридов  
+## Contact
+Dmitry Sviridov  
 Telegram: [slamach](https://t.me/slamach)  
 Email: sviridov.dvv@gmail.com
