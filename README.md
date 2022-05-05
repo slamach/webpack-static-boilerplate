@@ -42,7 +42,7 @@ npm start
 
 ### Production
 ```
-npm build
+npm run build
 ```
 
 ## Contact
