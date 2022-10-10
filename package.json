@@ -7,7 +7,7 @@
     "start": "webpack serve --node-env=development"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,scss}": "prettier --write"
+    "src/**/*.{js,jsx,json,css,scss}": "prettier --write"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
