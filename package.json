@@ -22,7 +22,7 @@
     "html-webpack-plugin": "^5.5.1",
     "husky": "^8.0.3",
     "image-webpack-loader": "^8.1.0",
-    "lint-staged": "^13.2.1",
+    "lint-staged": "^13.2.2",
     "mini-css-extract-plugin": "^2.7.5",
     "postcss-loader": "^7.2.4",
     "prettier": "2.8.8",
