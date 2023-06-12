@@ -19,7 +19,7 @@
     "css-minimizer-webpack-plugin": "^4.2.2",
     "glob": "^8.1.0",
     "html-loader": "^4.2.0",
-    "html-webpack-plugin": "^5.5.1",
+    "html-webpack-plugin": "^5.5.3",
     "husky": "^8.0.3",
     "image-webpack-loader": "^8.1.0",
     "lint-staged": "^13.2.2",
