@@ -1,6 +1,6 @@
-const path = require('path');
-const glob = require('glob');
 const fs = require('fs');
+const path = require('path');
+const { glob } = require('glob');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
